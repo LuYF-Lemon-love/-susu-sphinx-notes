@@ -23,3 +23,4 @@ Contents
    Home <self>
    usage
    api
+   001-A-ReStructuredText-Primer
