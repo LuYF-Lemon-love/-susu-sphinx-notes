@@ -1,2 +1,2 @@
-# -susu-sphinx-notes
+# susu-sphinx-notes
 sphinx 学习笔记.
