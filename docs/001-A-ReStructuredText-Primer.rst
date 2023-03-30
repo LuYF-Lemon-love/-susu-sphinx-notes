@@ -1,7 +1,7 @@
-A ReStructuredText Primer
+001 A ReStructuredText Primer
 =========================
 
-源教程地址: https://docutils.sourceforge.io/docs/user/rst/quickstart.html .
+源教程地址: https://docutils.sourceforge.io/docs/user/rst/quickstart.html 。
 
 这是一个 **ReStructuredText** 快速教程，更详细的教程位 `Quick reStructuredText <https://docutils.sourceforge.io/docs/user/rst/quickref.html>`_ 。
 

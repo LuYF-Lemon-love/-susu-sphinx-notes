@@ -1,4 +1,4 @@
-Getting started with Sphinx
+002 Getting started with Sphinx
 ===========================
 
 源教程地址: https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html .
@@ -62,7 +62,7 @@ Your ``index.rst`` has been built into ``index.html``
 in your documentation output directory (typically ``_build/html/index.html``).
 Open this file in your web browser to see your docs.
 
-.. figure:: /_static/images/first-steps/sphinx-hello-world.png
+.. figure:: images/002-sphinx-hello-world.webp
    :figwidth: 500px
    :align: center
 
@@ -70,11 +70,11 @@ Open this file in your web browser to see your docs.
 
 Edit your files and rebuild until you like what you see, then commit your changes and push to your public repository.
 Once you have Sphinx documentation in a public repository, you can start using Read the Docs
-by :doc:`importing your docs </intro/import-guide>`.
+by `importing your docs <https://docs.readthedocs.io/en/stable/intro/import-guide.html>`_.
 
 .. warning::
 
-   We strongly recommend to :doc:`pin the Sphinx version </guides/reproducible-builds>`
+   We strongly recommend to `pin the Sphinx version <https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html>`_
    used for your project to build the docs to avoid potential future incompatibilities.
 
 .. _this template: https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/#id1
@@ -105,7 +105,7 @@ Read the `Getting started with MyST in Sphinx`_ docs for additional instructions
 Get inspired!
 -------------
 
-You might learn more and find the first ingredients for starting your own documentation project by looking at :doc:`/examples` - view live example renditions and copy & paste from the accompanying source code.
+You might learn more and find the first ingredients for starting your own documentation project by looking at `Example projects <https://docs.readthedocs.io/en/stable/examples.html>`_ - view live example renditions and copy & paste from the accompanying source code.
 
 
 External resources
