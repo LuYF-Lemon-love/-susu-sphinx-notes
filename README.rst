@@ -26,7 +26,7 @@ This example shows a basic Sphinx project with Read the Docs. You're encouraged 
 💡 `lumache.py <https://github.com/LuYF-Lemon-love/susu-sphinx-notes/blob/main/lumache.py>`_
     API docs are generated for this example Python module - they use *docstrings* directly in the documentation, notice how this shows up in the rendered documentation.
 🔢 Git tags versioning
-    We use a basic versioning mechanism by adding a git tag for every release of the example project. All releases and their version numbers are visible on `example-sphinx-basic.readthedocs.io <https://example-sphinx-basic.readthedocs.io/en/latest/>`__.
+    We use a basic versioning mechanism by adding a git tag for every release of the example project. All releases and their version numbers are visible on `susu-sphinx-notes.readthedocs.io <https://susu-sphinx-notes.readthedocs.io/en/latest/>`__.
 📜 `README.rst <https://github.com/LuYF-Lemon-love/susu-sphinx-notes/blob/main/README.rst>`_
     Contents of this ``README.rst`` are visible on Github and included on `the documentation index page <https://susu-sphinx-notes.readthedocs.io/en/latest/>`_ (Don't Repeat Yourself).
 ⁉️ Questions / comments
