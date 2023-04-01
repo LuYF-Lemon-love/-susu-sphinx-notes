@@ -36,7 +36,7 @@ extensions = [
     "sphinx.ext.intersphinx",
     "sphinx-prompt",
     "sphinxemoji.sphinxemoji",
-    "sphinx_tabs.tabs",
+    # "sphinx_tabs.tabs",
 ]
 
 intersphinx_mapping = {
