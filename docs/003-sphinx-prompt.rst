@@ -6,11 +6,9 @@
 Install
 -------
 
-::
+.. prompt:: bash $
 
- .. prompt:: bash $
-
-     pip install sphinx-prompt
+    pip install sphinx-prompt
 
 Initialize
 ----------
