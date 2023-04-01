@@ -38,6 +38,8 @@ The prompt can be further customized in one of two ways:
 
 - Using options:
 
+::
+
  .. prompt::
      :language: <language>
      :prompts: <prompts>
