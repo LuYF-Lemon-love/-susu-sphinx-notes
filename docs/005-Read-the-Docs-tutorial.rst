@@ -634,7 +634,7 @@ or what parts of your project are less understood or more difficult to find.
 
 To generate some artificial search statistics on the project,
 go to the HTML documentation, locate the Sphinx search box on the left,
-type ``ingredients``, and press the :kbd:`Enter` key.
+type ``ingredients``, and press the Enter key.
 You will be redirected to the search results page, which will show two entries.
 
 Next, go back to the :guilabel:`⚙ Admin` section of your project page,
@@ -645,7 +645,7 @@ how many results did each query return, and how many times it was searched.
 Below the queries table, you will also see a visualization
 of the daily number of search queries during the past 30 days.
 
-.. figure:: /_static/images/tutorial/search-analytics-terms.png
+.. figure:: /images/005-search-analytics-terms.png
    :width: 80%
    :align: center
    :alt: Most searched terms
@@ -667,21 +667,21 @@ Here you have some resources to continue learning about documentation
 and Read the Docs:
 
 - You can learn more about the functionality of the platform
-  by going over our :doc:`features </reference/features>` page.
+  by going over our `features <https://docs.readthedocs.io/en/stable/reference/features.html>`_ page.
 - To make the most of the documentation generators that are supported,
   you can read the :doc:`Sphinx tutorial <sphinx:tutorial/index>`
   or the `MkDocs User Guide <https://www.mkdocs.org/user-guide/>`_.
-- Display example projects and read the source code in :doc:`/examples`.
+- Display example projects and read the source code in `Example projects <https://docs.readthedocs.io/en/stable/examples.html>`_ .
 - Whether you are a documentation author, a project administrator, a developer, or a designer,
   you can follow our how-to guides that cover specific tasks,
-  available under :doc:`/guides/index`.
+  available under `How-to guides A-Z <https://docs.readthedocs.io/en/stable/guides/index.html>`_ .
 - For private project support and other enterprise features,
-  you can use :doc:`our commercial service </commercial/index>`
-  (and if in doubt, check out :doc:`/choosing-a-site`).
-- Do you want to join a global community of fellow `documentarians <writethedocs:documentarians>`?
+  you can use `our commercial service <https://docs.readthedocs.io/en/stable/commercial/index.html>`_
+  (and if in doubt, check out `Choosing between our two platforms <https://docs.readthedocs.io/en/stable/choosing-a-site.html>`_ ).
+- Do you want to join a global community of fellow ``documentarians``?
   Check out `Write the Docs <https://www.writethedocs.org/>`_ and
-  :doc:`its Slack workspace <writethedocs:slack>`.
+  `its Slack workspace <https://www.writethedocs.org/slack/>`_.
 - Do you want to contribute to Read the Docs?
-  We greatly appreciate it! Check out :doc:`rtd-dev:contribute`.
+  We greatly appreciate it! Check out `Contributing to Read the Docs <https://dev.readthedocs.io/en/latest/contribute.html>`_.
 
 Happy documenting!
