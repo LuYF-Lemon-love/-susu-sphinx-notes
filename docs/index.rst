@@ -27,3 +27,4 @@ Contents
    002-getting-started-with-sphinx
    003-sphinx-prompt
    004-readthedocs
+   005-Read-the-Docs-tutorial

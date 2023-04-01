@@ -58,3 +58,7 @@ urllib3==1.26.9
     # via requests
 sphinx-prompt
     # 自己额外加的
+sphinxemoji==0.2.0
+    # 自己额外加的
+sphinx-tabs==3.3.1
+    # 自己额外加的
