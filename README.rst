@@ -1,6 +1,8 @@
 Example: Basic Sphinx project for Read the Docs
 ===============================================
 
+源教程地址: https://example-sphinx-basic.readthedocs.io/en/latest/ .
+
 .. image:: https://readthedocs.org/projects/example-sphinx-basic/badge/?version=latest
     :target: https://example-sphinx-basic.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
