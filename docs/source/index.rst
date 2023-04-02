@@ -21,8 +21,6 @@ Contents
 .. toctree::
 
    Home <self>
-   usage
-   api
    001-A-ReStructuredText-Primer
    002-getting-started-with-sphinx
    003-sphinx-prompt
