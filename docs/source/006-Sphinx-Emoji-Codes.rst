@@ -2,3 +2,53 @@
 ======================
 
 源教程地址: https://docutils.sourceforge.io/docs/user/rst/quickstart.html 。
+
+An extension to use emoji codes in your Sphinx documentation!
+
+.. prompt:: bash
+
+    pip install sphinxemoji
+
+Usage
+-----
+
+Enable the Sphinx extension(s) in your ``conf.py`` file:
+
+.. prompt:: Python
+
+    extensions = [
+        '...',
+        'sphinxemoji.sphinxemoji',
+    ]
+
+Then you can use emoji code replacements by writing them between bars:
+
+::
+
+ This text includes a smiley face |:smile:| and a snake too! |:snake:|
+
+ Don't you love it? |:heart_eyes:|
+
+This text includes a smiley face |:smile:| and a snake too! |:snake:|
+
+Don't you love it? |:heart_eyes:|
+
+If you want a consistent emoji style, you can set it in your ``conf.py`` file:
+
+::
+
+ sphinxemoji_style = 'twemoji'
+
+By default twemoji is obtained from a CDN. If you want to specify your own source location (be it local or from another CDN), you can do so via the ``conf.py`` file:
+
+::
+
+ sphinxemoji_source = 'https://unpkg.com/twemoji@latest/dist/twemoji.min.js'
+ # or: sphinxemoji_source = 'my-local-twemoji.min.js'
+
+You can find the list of all supported emoji codes `in the project's documentation page <https://sphinxemojicodes.readthedocs.io/#supported-codes>`_.
+
+Notes
+-----
+
+Emoji substitutions are processed after default substitutions like ``|release|``, ``|version|`` and ``|today|``, but before any other substitutions in source files (i.e. emoji substitutions can be overriden).

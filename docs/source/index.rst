@@ -28,3 +28,4 @@ Contents
    003-sphinx-prompt
    004-readthedocs
    005-Read-the-Docs-tutorial
+   006-Sphinx-Emoji-Codes.rst
