@@ -1,5 +1,5 @@
 002 Getting started with Sphinx
-===========================
+===============================
 
 源教程地址: https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html .
 
