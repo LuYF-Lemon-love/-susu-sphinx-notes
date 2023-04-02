@@ -55,7 +55,7 @@ and it contains the following files:
   including the Sphinx configuration ``docs/source/conf.py``
   and the root document ``docs/source/index.rst`` written in reStructuredText.
 
-.. figure:: images/005-github-template.webp
+.. figure:: ../images/005-github-template.webp
    :width: 80%
    :align: center
    :alt: GitHub template for the tutorial
@@ -70,7 +70,7 @@ navigate to the `Sign Up page <https://readthedocs.org/accounts/signup/>`_
 and choose the option :guilabel:`Sign up with GitHub`.
 On the authorization page, click the green :guilabel:`Authorize readthedocs` button.
 
-.. figure:: images/005-github-authorization.webp
+.. figure:: ../images/005-github-authorization.webp
    :width: 60%
    :align: center
    :alt: GitHub authorization page
@@ -103,7 +103,7 @@ and ready to import your first project.
 
 Welcome!
 
-.. figure:: images/005-rtd-empty-dashboard.webp
+.. figure:: ../images/005-rtd-empty-dashboard.webp
    :width: 80%
    :align: center
    :alt: Read the Docs empty dashboard
@@ -129,7 +129,7 @@ You should see your GitHub account under the "Filter repositories" list on the r
 If the list of repositories is empty, click the |:arrows_counterclockwise:| button,
 and after that all your repositories will appear on the center.
 
-.. figure:: images/005-rtd-import-projects.gif
+.. figure:: ../images/005-rtd-import-projects.gif
    :width: 80%
    :align: center
    :alt: Import projects workflow
@@ -161,7 +161,7 @@ Edit advanced project options
 After hitting the :guilabel:`Next` button, you will be redirected to the :term:`project home`.
 You just created your first project on Read the Docs! |:tada:|
 
-.. figure:: images/005-rtd-project-home.png
+.. figure:: ../images/005-rtd-project-home.png
    :width: 80%
    :align: center
    :alt: Project home
@@ -182,7 +182,7 @@ If the build has not finished yet by the time you open it,
 you will see a spinner next to a "Installing" or "Building" indicator,
 meaning that it is still in progress.
 
-.. figure:: images/005-rtd-first-successful-build.webp
+.. figure:: ../images/005-rtd-first-successful-build.webp
    :width: 80%
    :align: center
    :alt: First successful documentation build
@@ -194,7 +194,7 @@ the completion date, the elapsed time,
 and a link to see the corresponding documentation.
 If you now click on :guilabel:`View docs`, you will see your documentation live!
 
-.. figure:: images/005-rtd-first-light.webp
+.. figure:: ../images/005-rtd-first-light.webp
    :width: 80%
    :align: center
    :alt: HTML documentation live on Read the Docs
@@ -251,7 +251,7 @@ to open a web editor (more information `on their documentation`__).
 
 __  https://docs.github.com/en/github/managing-files-in-a-repository/managing-files-on-github/editing-files-in-your-repository
 
-.. figure:: /images/005-gh-edit.webp
+.. figure:: ../images/005-gh-edit.webp
    :width: 80%
    :align: center
    :alt: File view on GitHub before launching the editor
@@ -272,7 +272,7 @@ When you are done, click the green :guilabel:`Propose changes` button,
 which will take you to the new pull request page,
 and there click the :guilabel:`Create pull request` button below the description.
 
-.. figure:: images/005-gh-pr-build.png
+.. figure:: ../images/005-gh-pr-build.png
    :width: 80%
    :align: center
    :alt: Read the Docs building the pull request from GitHub
@@ -343,7 +343,7 @@ You will notice that one of the lines contains ``python3.8``:
 if you click on it, you will see the full output of the corresponding command,
 stating that it used Python 3.8.6 to create the virtual environment.
 
-.. figure:: images/005-build-python3.8.png
+.. figure:: ../images/005-build-python3.8.png
    :width: 80%
    :align: center
    :alt: Read the Docs build using Python 3.8
@@ -443,7 +443,7 @@ After this change, PDF and EPUB downloads will be available
 both from the "Downloads" section of the :term:`project home`,
 as well as the :term:`flyout menu`.
 
-.. figure:: images/005-flyout-downloads.webp
+.. figure:: ../images/005-flyout-downloads.webp
    :align: center
    :alt: Downloads available from the flyout menu
 
@@ -476,7 +476,7 @@ and under "Active Versions" you will see two entries:
 - The ``latest`` version, pointing to the ``main`` branch.
 - A new ``stable`` version, pointing to the ``origin/1.0.x`` branch.
 
-.. figure:: /images/005-active-versions.png
+.. figure:: ../images/005-active-versions.png
    :width: 80%
    :align: center
    :alt: List of active versions of the project
@@ -516,7 +516,7 @@ they are visible for users, and new builds can be triggered for them.
 In addition to these, Read the Docs also created an *inactive* ``1.0.x``
 version, which will always point to the ``1.0.x`` branch of your repository.
 
-.. figure:: images/005-inactive-versions.png
+.. figure:: ../images/005-inactive-versions.png
    :width: 80%
    :align: center
    :alt: List of inactive versions of the project
@@ -563,7 +563,7 @@ enable the "Show version warning" checkbox, and click the :guilabel:`Save` butto
 If you now browse the ``1.0.x`` documentation, you will see a warning on top
 encouraging you to browse the latest version instead. Neat!
 
-.. figure:: /images/005-old-version-warning.png
+.. figure:: ../images/005-old-version-warning.png
    :width: 80%
    :align: center
    :alt: Warning for old versions
@@ -597,7 +597,7 @@ and then click on the :guilabel:`Traffic Analytics` section.
 You will see the list of pages in descending order of visits,
 as well as a plot similar to the one below.
 
-.. figure:: images/005-traffic-analytics-plot.png
+.. figure:: ../images/005-traffic-analytics-plot.png
    :width: 80%
    :align: center
    :alt: Traffic Analytics plot
@@ -645,7 +645,7 @@ how many results did each query return, and how many times it was searched.
 Below the queries table, you will also see a visualization
 of the daily number of search queries during the past 30 days.
 
-.. figure:: /images/005-search-analytics-terms.png
+.. figure:: ../images/005-search-analytics-terms.png
    :width: 80%
    :align: center
    :alt: Most searched terms

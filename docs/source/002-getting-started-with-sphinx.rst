@@ -62,7 +62,7 @@ Your ``index.rst`` has been built into ``index.html``
 in your documentation output directory (typically ``_build/html/index.html``).
 Open this file in your web browser to see your docs.
 
-.. figure:: images/002-sphinx-hello-world.webp
+.. figure:: ../images/002-sphinx-hello-world.webp
    :figwidth: 500px
    :align: center
 

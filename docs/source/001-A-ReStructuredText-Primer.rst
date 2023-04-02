@@ -249,17 +249,17 @@ Images
 
 ::
 
- .. image:: images/001-susu.jpeg
+ .. image:: ../images/001-susu.jpeg
 
 结果：
 
-.. image:: images/001-susu.jpeg
+.. image:: ../images/001-susu.jpeg
 
 如果图像要以 HTML 形式出现，并且您希望提供其他信息，您可以：
 
 ::
 
- .. image:: images/001-susu.jpeg
+ .. image:: ../images/001-susu.jpeg
     :height: 100
     :width: 200
     :scale: 50
@@ -267,7 +267,7 @@ Images
 
 结果：
 
-.. image:: images/001-susu.jpeg
+.. image:: ../images/001-susu.jpeg
    :height: 100
    :width: 200
    :scale: 50
