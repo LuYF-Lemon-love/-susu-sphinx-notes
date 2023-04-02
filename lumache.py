@@ -1,4 +1,7 @@
 """
+
+lumache.py head part.
+
 Lumache - Python library for cooks and food lovers.
 
 This is a Python docstring, we can use reStructuredText syntax here!
