@@ -20,6 +20,8 @@ Contents
 
 .. toctree::
 
+   :maxdepth: 1
+
    Home <self>
    usage
    api
@@ -30,3 +32,4 @@ Contents
    005-Read-the-Docs-tutorial
    006-Sphinx-Emoji-Codes.rst
    007-Sphinx.rst
+   008-Getting-Started.rst
