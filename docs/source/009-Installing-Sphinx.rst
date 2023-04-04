@@ -1,7 +1,7 @@
 009 Installing Sphinx
 =====================
 
-源教程地址: https://example-sphinx-basic.readthedocs.io/en/latest/ .
+源教程地址: https://www.sphinx-doc.org/en/master/usage/installation.html .
 
 Overview
 --------
