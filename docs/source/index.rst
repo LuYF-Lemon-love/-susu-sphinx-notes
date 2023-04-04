@@ -33,3 +33,4 @@ Contents
    006-Sphinx-Emoji-Codes.rst
    007-Sphinx.rst
    008-Getting-Started.rst
+   009-Installing-Sphinx.rst
