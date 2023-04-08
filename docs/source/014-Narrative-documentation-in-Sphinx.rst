@@ -133,7 +133,7 @@ Notice a trick here: the install part specifies how the link will
 look like (we want it to be a specific word, so the sentence makes sense), 
 whereas the <installation> part refers to the actual label we want to 
 add a cross-reference to. If you do not include an explicit title, 
-hence using :ref:`installation`, the section title will be used (in this case, Installation). 
+hence using ``:ref:`installation``` (:ref:`installation`), the section title will be used (in this case, Installation). 
 Both the ``:doc:`` and the ``:ref:`` roles will be rendered as hyperlinks in the HTML documentation.
 
 What about documenting code objects in Sphinx? Read on!
