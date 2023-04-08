@@ -33,3 +33,4 @@ since you will use Python virtual environments to create the project.
    011-Getting-started.rst
    012-First-steps-to-document-your-project-using-Sphinx.rst
    013-More-Sphinx-customization.rst
+   014-Narrative-documentation-in-Sphinx.rst
