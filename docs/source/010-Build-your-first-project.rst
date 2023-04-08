@@ -25,3 +25,9 @@ To follow the instructions you will need access to a Linux-like command line
 and a basic understanding of how it works, 
 as well as a working Python installation for development, 
 since you will use Python virtual environments to create the project.
+
+.. toctree::
+
+   :maxdepth: 2
+
+   011-Getting-started.rst
