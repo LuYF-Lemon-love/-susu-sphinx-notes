@@ -22,11 +22,11 @@ It is a good moment to create a Python virtual environment and install the requi
 For that, open a command line terminal, 
 cd into the directory you just created, and run the following commands:
 
-.. prompt:: bash $,(.venv) $ auto
+.. prompt:: bash $,(.venv)...$ auto
 
    $ python -m venv .venv
    $ source .venv/bin/activate
-   (.venv) $ python -m pip install sphinx
+   (.venv)...$ python -m pip install sphinx
 
 **Note**
 
@@ -37,9 +37,9 @@ If you executed these instructions correctly,
 you should have the Sphinx command line tools available. 
 You can do a basic verification running this command:
 
-.. prompt:: bash $,(.venv) $
+.. prompt:: bash $,(.venv)...$ auto
 
-   (.venv) $ sphinx-build --version
+   (.venv)...$ sphinx-build --version
    sphinx-build 4.0.2
 
 If you see a similar output, you are on the right path!
@@ -49,9 +49,9 @@ Creating the documentation layout
 
 Then from the command line, run the following command:
 
-.. prompt:: bash $,(.venv) $
+.. prompt:: bash $,(.venv)...$ auto
 
-   (.venv) $ sphinx-quickstart docs
+   (.venv)...$ sphinx-quickstart docs
 
 This will present to you a series of questions required to create the basic directory 
 and configuration layout for your project inside the docs folder. 
@@ -106,9 +106,9 @@ Thanks to this bootstrapping step,
 you already have everything needed to render the documentation as HTML for the first time. 
 To do that, run this command:
 
-.. prompt:: bash $,(.venv) $
+.. prompt:: bash $,(.venv)...$ auto
 
-   (.venv) $ sphinx-build -b html docs/source/ docs/build/html
+   (.venv)...$ sphinx-build -b html docs/source/ docs/build/html
 
 And finally, open docs/build/html/index.html in your browser. You should see something like this:
 
