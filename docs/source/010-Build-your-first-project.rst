@@ -31,3 +31,4 @@ since you will use Python virtual environments to create the project.
    :maxdepth: 2
 
    011-Getting-started.rst
+   012-First-steps-to-document-your-project-using-Sphinx.rst
