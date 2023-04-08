@@ -20,7 +20,7 @@ Contents
 
 .. toctree::
 
-   :maxdepth: 1
+   :maxdepth: 2
 
    Home <self>
    usage
@@ -34,3 +34,4 @@ Contents
    007-Sphinx.rst
    008-Getting-Started.rst
    009-Installing-Sphinx.rst
+   010-Build-your-first-project.rst
