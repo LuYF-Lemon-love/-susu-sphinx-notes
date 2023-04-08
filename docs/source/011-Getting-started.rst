@@ -114,5 +114,7 @@ And finally, open docs/build/html/index.html in your browser. You should see som
 
 .. image:: ../images/011-lumache-first-light.png
 
+   Freshly created documentation of Lumache
+
 There we go! You created your first HTML documentation using Sphinx. 
 Now you can start customizing it.
