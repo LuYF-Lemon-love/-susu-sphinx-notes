@@ -22,7 +22,7 @@ It is a good moment to create a Python virtual environment and install the requi
 For that, open a command line terminal, 
 cd into the directory you just created, and run the following commands:
 
-.. prompt:: bash $,(.venv) $
+.. prompt:: bash $,(.venv) $ auto
 
    $ python -m venv .venv
    $ source .venv/bin/activate
