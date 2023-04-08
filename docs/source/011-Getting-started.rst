@@ -112,8 +112,9 @@ To do that, run this command:
 
 And finally, open docs/build/html/index.html in your browser. You should see something like this:
 
-.. image:: ../images/011-lumache-first-light.png
-
+.. figure:: ../images/011-lumache-first-light.png
+   :align: center
+   
    Freshly created documentation of Lumache
 
 There we go! You created your first HTML documentation using Sphinx. 
