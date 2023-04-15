@@ -34,3 +34,4 @@ since you will use Python virtual environments to create the project.
    012-First-steps-to-document-your-project-using-Sphinx.rst
    013-More-Sphinx-customization.rst
    014-Narrative-documentation-in-Sphinx.rst
+   015-Describing-code-in-Sphinx.rst
