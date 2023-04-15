@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+<meta content="Get started writing technical documentation with Sphinx and publishing to Read the Docs." lang="en" name="description" xml:lang="en" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>002 Getting started with Sphinx &mdash; SuSu Sphinx Notes  documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="003 sphinx-prompt" href="003-sphinx-prompt.html" />
+    <link rel="prev" title="001 A ReStructuredText Primer" href="001-A-ReStructuredText-Primer.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> SuSu Sphinx Notes
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="index.html">Home</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api.html">API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="001-A-ReStructuredText-Primer.html">001 A ReStructuredText Primer</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">002 Getting started with Sphinx</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#quick-start">Quick start</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#using-markdown-with-sphinx">Using Markdown with Sphinx</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#get-inspired">Get inspired!</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#external-resources">External resources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="003-sphinx-prompt.html">003 sphinx-prompt</a></li>
+<li class="toctree-l1"><a class="reference internal" href="004-readthedocs.html">004 readthedocs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="005-Read-the-Docs-tutorial.html">005 Read the Docs tutorial</a></li>
+<li class="toctree-l1"><a class="reference internal" href="006-Sphinx-Emoji-Codes.html">006 Sphinx Emoji Codes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="007-Sphinx.html">007 Sphinx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="008-Getting-Started.html">008 Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="009-Installing-Sphinx.html">009 Installing Sphinx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="010-Build-your-first-project.html">010 Tutorial: Build your first project</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">SuSu Sphinx Notes</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>002 Getting started with Sphinx</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/002-getting-started-with-sphinx.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="getting-started-with-sphinx">
+<h1>002 Getting started with Sphinx<a class="headerlink" href="#getting-started-with-sphinx" title="Permalink to this heading"></a></h1>
+<p>源教程地址: <a class="reference external" href="https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html">https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html</a> .</p>
+<p>Sphinx is a powerful documentation generator that
+has many great features for writing technical documentation including:</p>
+<ul class="simple">
+<li><p>Generate web pages, printable PDFs, documents for e-readers (ePub),
+and more all from the same sources</p></li>
+<li><p>You can use reStructuredText or <strong>Markdown</strong>
+to write documentation</p></li>
+<li><p>An extensive system of cross-referencing code and documentation</p></li>
+<li><p>Syntax highlighted code samples</p></li>
+<li><p>A vibrant ecosystem of first and third-party <a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/extensions/index.html" title="(in Sphinx v6.2.0)"><span class="xref std std-doc">extensions</span></a></p></li>
+</ul>
+<p>If you want to learn more about how to create your first Sphinx project, read on.
+If you are interested in exploring the Read the Docs platform using an already existing Sphinx project,
+check out <a class="reference external" href="https://docs.readthedocs.io/en/stable/tutorial/index.html">Read the Docs tutorial</a> .</p>
+<section id="quick-start">
+<h2>Quick start<a class="headerlink" href="#quick-start" title="Permalink to this heading"></a></h2>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p>If you already have a Sphinx project, check out our <a class="reference external" href="https://docs.readthedocs.io/en/stable/intro/import-guide.html">Importing your documentation</a> guide.</p>
+</div>
+<p>Assuming you have Python already, <a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/installation.html" title="(in Sphinx v6.2.0)"><span class="xref std std-doc">install Sphinx</span></a>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><style type="text/css">
+span.prompt1:before {
+  content: "$ ";
+}
+</style><span class="prompt1">pip install sphinx</span>
+</pre></div></div><p>Create a directory inside your project to hold your docs:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span class="prompt1"><span class="nb">cd</span> /path/to/project</span>
+<span class="prompt1">mkdir docs</span>
+</pre></div></div><p>Run <code class="docutils literal notranslate"><span class="pre">sphinx-quickstart</span></code> in there:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span class="prompt1"><span class="nb">cd</span> docs</span>
+<span class="prompt1">sphinx-quickstart</span>
+</pre></div></div><p>This quick start will walk you through creating the basic configuration; in most cases, you
+can just accept the defaults. When it’s done, you’ll have an <code class="docutils literal notranslate"><span class="pre">index.rst</span></code>, a
+<code class="docutils literal notranslate"><span class="pre">conf.py</span></code> and some other files. Add these to revision control.</p>
+<p>Now, edit your <code class="docutils literal notranslate"><span class="pre">index.rst</span></code> and add some information about your project.
+Include as much detail as you like (refer to the <a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html" title="(in Sphinx v6.2.0)"><span class="xref std std-doc">reStructuredText syntax</span></a>
+or <a class="reference external" href="https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/#id1">this template</a> if you need help). Build them to see how they look:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span class="prompt1">make html</span>
+</pre></div></div><p>Your <code class="docutils literal notranslate"><span class="pre">index.rst</span></code> has been built into <code class="docutils literal notranslate"><span class="pre">index.html</span></code>
+in your documentation output directory (typically <code class="docutils literal notranslate"><span class="pre">_build/html/index.html</span></code>).
+Open this file in your web browser to see your docs.</p>
+<figure class="align-center" id="id1" style="width: 500px">
+<img alt="_images/002-sphinx-hello-world.webp" src="_images/002-sphinx-hello-world.webp" />
+<figcaption>
+<p><span class="caption-text">Your Sphinx project is built</span><a class="headerlink" href="#id1" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<p>Edit your files and rebuild until you like what you see, then commit your changes and push to your public repository.
+Once you have Sphinx documentation in a public repository, you can start using Read the Docs
+by <a class="reference external" href="https://docs.readthedocs.io/en/stable/intro/import-guide.html">importing your docs</a>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>We strongly recommend to <a class="reference external" href="https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html">pin the Sphinx version</a>
+used for your project to build the docs to avoid potential future incompatibilities.</p>
+</div>
+</section>
+<section id="using-markdown-with-sphinx">
+<h2>Using Markdown with Sphinx<a class="headerlink" href="#using-markdown-with-sphinx" title="Permalink to this heading"></a></h2>
+<p>You can use <a class="reference external" href="https://myst-parser.readthedocs.io/en/latest/using/intro.html">Markdown using MyST</a> and reStructuredText in the same Sphinx project.
+We support this natively on Read the Docs, and you can do it locally:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span class="prompt1">pip install myst-parser</span>
+</pre></div></div><p>Then in your <code class="docutils literal notranslate"><span class="pre">conf.py</span></code>:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">extensions</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;myst_parser&quot;</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>You can now continue writing your docs in <code class="docutils literal notranslate"><span class="pre">.md</span></code> files and it will work with Sphinx.
+Read the <a class="reference external" href="https://myst-parser.readthedocs.io/en/latest/sphinx/intro.html">Getting started with MyST in Sphinx</a> docs for additional instructions.</p>
+</section>
+<section id="get-inspired">
+<h2>Get inspired!<a class="headerlink" href="#get-inspired" title="Permalink to this heading"></a></h2>
+<p>You might learn more and find the first ingredients for starting your own documentation project by looking at <a class="reference external" href="https://docs.readthedocs.io/en/stable/examples.html">Example projects</a> - view live example renditions and copy &amp; paste from the accompanying source code.</p>
+</section>
+<section id="external-resources">
+<h2>External resources<a class="headerlink" href="#external-resources" title="Permalink to this heading"></a></h2>
+<p>Here are some external resources to help you learn more about Sphinx.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.sphinx-doc.org/">Sphinx documentation</a></p></li>
+<li><p><a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html" title="(in Sphinx v6.2.0)"><span class="xref std std-doc">RestructuredText primer</span></a></p></li>
+<li><p><a class="reference external" href="https://www.ericholscher.com/blog/2016/jul/1/sphinx-and-rtd-for-writers/">An introduction to Sphinx and Read the Docs for technical writers</a></p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="001-A-ReStructuredText-Primer.html" class="btn btn-neutral float-left" title="001 A ReStructuredText Primer" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="003-sphinx-prompt.html" class="btn btn-neutral float-right" title="003 sphinx-prompt" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, LuYF-Lemon-love.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
