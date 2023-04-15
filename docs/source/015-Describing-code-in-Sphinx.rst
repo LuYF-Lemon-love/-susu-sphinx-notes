@@ -63,12 +63,9 @@ you can use the ``lumache.get_random_ingredients()`` function:
 
 Notice several things:
 
-- Sphinx parsed the argument of the ``.. py:function`` directive 
-and highlighted the module, the function name, and the parameters appropriately.
+- Sphinx parsed the argument of the ``.. py:function`` directive and highlighted the module, the function name, and the parameters appropriately.
 
-- The directive content includes **a one-line description of the function**, 
-as well as an info field list containing **the function parameter**, 
-**its expected type**, **the return value**, and **the return type**.
+- The directive content includes **a one-line description of the function**, as well as an info field list containing **the function parameter**, **its expected type**, **the return value**, and **the return type**.
 
 .. note::
 
