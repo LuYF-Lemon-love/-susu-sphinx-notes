@@ -38,4 +38,4 @@ since you will use Python virtual environments to create the project.
    016-Automatic-documentation-generation-from-code.rst
    017-Deploying-a-Sphinx-project-online.rst
    018-Where-to-go-from-here.rst
-   
+
