@@ -36,3 +36,5 @@ Contents
    009-Installing-Sphinx.rst
    010-Build-your-first-project.rst
    019-VSCode-extension.rst
+   020-Read-the-Docs-Sphinx-Theme.rst
+   021-reStructuredText-Primer.rst
